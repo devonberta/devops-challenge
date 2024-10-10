@@ -1,5 +1,5 @@
 deployment = {
-    name-prefix = "devops-challenge"
+    name-prefix = "devonbertadevopschallenge"
     vpc-cidr    = "10.0.0.0/16"
     public-cidrs = [
         "10.0.1.0/24", 
@@ -12,9 +12,9 @@ deployment = {
         "10.0.103.0/24"
     ]
     ubuntu-image-id     = "ubuntu"
-    max-instances   = 6
-    min-instances   = 3
-    starting-instances = 3
+    max-instances   = 3
+    min-instances   = 1
+    starting-instances =1
     region          = "us-east-1"
 }
 
